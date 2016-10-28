@@ -297,7 +297,7 @@ a { outline: 0 !important; }
 /* ## Features Section ## */
 
 .features-section {
-	background-image: url("images/features/features-bg.jpg");
+	background-image: url("images/features/features-bg gc.jpg");
 	background-size: 100% 100%;
 	display: inline-block; 
 	width: 100%;
@@ -307,15 +307,15 @@ a { outline: 0 !important; }
 }
 
 .features-section:before {
-	width: 56%;
+	width: 57%;
 	position: absolute;
 	height: 100%;
 	top: 0;
 	overflow: visible;
-	border-top: 1026px solid rgba(231,76,60,0.90);
+	border-top: 1226px solid rgba(231,76,60,0.90);
 	border-bottom: 0px solid rgba(231,76,60,0.90);
 	border-left: 0px solid transparent; 
-	border-right: 260px solid transparent;
+	border-right: 330px solid transparent;
 	content: "";
 }
 
@@ -342,7 +342,7 @@ a { outline: 0 !important; }
 	text-align: right;
 	display: inline-block;
 	width: 100%;
-	margin-top: 81px;
+	margin-top: 61px;
 	margin-left: 30px;
 	cursor: pointer;
 }
@@ -613,11 +613,12 @@ a { outline: 0 !important; }
 /* ## Why Choose ## */
 
 .why-choose {
-	background-image: url("images/why-choose/why-choose-bg.jpg");
+	background-image: url("images/gc/4981.jpg");
+	background-position: center;
 	display: inline-block; 
 	width: 100%;
 	padding: 112px 0;
-	height: 1020px;
+	height: 870px;
 	position: relative;
 }
 
@@ -628,15 +629,16 @@ a { outline: 0 !important; }
 	top: -1px;
 	overflow: visible;
 	border-top: 0px solid rgba(231,76,60,0.90);
-	border-bottom: 1021px solid rgba(231,76,60,0.90);
-	border-left: 260px solid transparent; 
+	border-bottom: 871px solid rgba(231,76,60,0.90);
+	border-left: 220px solid transparent;
 	border-right: 0px solid transparent;
 	content: "";
 	right: 0;
 }
 
 .why-choose h2 {
-	margin-left: 100px;
+	font-size: 32px;
+	margin-left: 120px;
 	text-align: center;
 }
 
@@ -660,7 +662,7 @@ a { outline: 0 !important; }
 }
 
 .why-choose-box {
-	margin-top: 60px;
+	margin-top: 40px;
 	margin-left: 100px;
 	padding-left: 35px;
 }
@@ -668,7 +670,7 @@ a { outline: 0 !important; }
 .why-choose-box .block-title {
 	color: #fff;
 	margin-bottom: 26px;
-	margin-top: 0;
+	margin-top: 20px;
 	display: inline-block;
 	height: 40px;
 	line-height: 35px;
@@ -717,6 +719,14 @@ a { outline: 0 !important; }
 	left: 100px;
 }
 
+.how-we-work ul li:first-child:before{
+	width: 145px;
+}
+
+.how-we-work ul li:nth-child(3n):before{
+	width: 105px;
+}
+
 .how-we-work ul li:last-child:before {
 	display: none;
 }
@@ -724,7 +734,6 @@ a { outline: 0 !important; }
 .how-we-work ul li a{
 	color: #666;
 	font-size: 16px;
-	text-transform: lowercase;
 	font-weight: bold;
 }
 .how-we-work ul li a i {
@@ -768,10 +777,10 @@ a { outline: 0 !important; }
 	transform-origin: right center;*/
 	height: 803px;
 	position: relative;
-	background-image: url("images/how-we-work/research-bg.jpg");
-	background-size: 100% 100%;
+	background-image: url("images/gc/11820.jpg");
+	/*background-size: 100% 100%;*/
 	background-repeat: no-repeat;
-	background-position: center top;
+	background-position: center bottom;
 }
 
 .research-slope:before {
@@ -882,10 +891,10 @@ a { outline: 0 !important; }
 	-ms-transform: rotate(5deg);
 	transform: rotate(5deg);
 	height: 803px;
-	background-image: url("images/how-we-work/we-perfection.jpg");
-	background-size: 100% 100%;
+	background-image: url("images/gc/9404.jpg");
+	/*background-size: 100% 100%;*/
 	background-repeat: no-repeat;
-	background-position: center top;
+	background-position: center center;
 	position: relative;
 }
 
@@ -938,9 +947,9 @@ a { outline: 0 !important; }
 	margin-top: -85px;
 	margin-left: -50px;
 	margin-right: -50px;
-	height: 950px;	
-	background-image: url("images/how-we-work/car.jpg");
-	background-size: 100% 100%;
+	height: 150px;
+	background-color: white;
+	/*background-size: 100% 100%;*/
 	background-repeat: no-repeat;
 	background-position: center top;
 	position: relative;
@@ -963,10 +972,10 @@ a { outline: 0 !important; }
 	transform: rotate(-1deg);
 	margin-top: -150px;
 	height: 803px;
-	background-image: url("images/how-we-work/clean-code.png");
-	background-size: 100% 100%;
+	background-image: url("images/gc/28934.jpg");
+	/*background-size: 100% 100%;*/
 	background-repeat: no-repeat;
-	background-position: center top;
+	background-position: center center;
 }
 
 .clean-code:before {
@@ -1017,18 +1026,18 @@ a { outline: 0 !important; }
 	transform: rotate(0deg);
 	height: 800px;
 	background-color: transparent;
-	background-image: url("images/how-we-work/we-launch-project.png");
-	background-size: 100% 100%;
+	background-image: url("images/gc/57511.jpg");
+	/*background-size: 100% 100%;*/
 	background-repeat: no-repeat;
-	background-position: center top;
+	background-position: center center;
 }
 
 .we-launch-slope:before {
 	width: 55%; 
-	height: 100%; 
+	height: 100%;
 	border-bottom: 800px solid rgba(231,76,68,0.9); 
 	border-left: 0px solid transparent; 
-	border-right: 180px solid transparent; 
+	border-right: 180px solid transparent;
 	border-top: 0px solid rgba(231,76,68,0.9); 
 	content: "";
 	position: absolute;
@@ -1508,14 +1517,14 @@ a { outline: 0 !important; }
 /* ## Statistics Section ## */
 
 .statistics-section {
-	background-color: #e74c3c;
+	background-color: #fff;
 	margin-top: -5px;
 	text-align: center;
-	color: #fff;
+	color: #e74c3c;
 	padding: 82px 0 66px 0;
 }
 .statistics-section  h1 {
-	font-size: 40px;
+	font-size: 36x;
 	font-weight: 400;
 }
 .statistics-section  h1,
@@ -1905,8 +1914,8 @@ a { outline: 0 !important; }
 }
 .start-project h2,
 .send-msg h2 {
-	font-size: 55px;
-	text-align: left;
+	font-size: 48px;
+	text-align: center;
 	margin: 40px 0;
 }
 

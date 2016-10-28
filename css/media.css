@@ -371,16 +371,16 @@
 	.slider-section .slide-title span.inner-circle {
 		width: 300px;
 		height: 300px;
-		padding: 50px 0;
+		padding: 65px 0;
 	}
 	.slider-section .slide-title span.inner-circle span:nth-child(1){
-		font-size: 60px;
+		font-size: 32px;
 	}
 	.slider-section .slide-title span.inner-circle span:nth-child(2) {
-		font-size: 60px;
+		font-size: 32px;
 	}
 	.slider-section .slide-title span.inner-circle span:nth-child(3){
-		font-size: 51px;
+		font-size: 32px;
 	}
 	/* How We Work */
 	.research-slope:before {
@@ -456,8 +456,8 @@
 		top: 12%;
 	}
 	.slider-section .slide-sub-title {
-		line-height: 65px;
-		font-size: 56px;
+		line-height: 40px;
+		font-size: 20px;
 		bottom: 50px;
 	}
 	
@@ -957,18 +957,18 @@
 	.slider-section .slide-title span.inner-circle {
 		width: 305px;
 		height: 305px;
-		padding: 71px 0;
+		padding: 61px 0;
 	}
 	
 	.slider-section .slide-title span.inner-circle span:nth-child(1) {
-		font-size: 52.58px;
+		font-size: 34px;
 	}
 
 	.slider-section .slide-title span.inner-circle span:nth-child(2) {
-		font-size: 48.01px;
+		font-size: 34px;
 	}
 	.slider-section .slide-title span.inner-circle span:nth-child(3) {
-		font-size: 45.72px;
+		font-size: 34px;
 	}
 	.slider-section .slide-sub-title {
 		display: none
@@ -1003,7 +1003,7 @@
 	/* ## Features Section ## */
 	.features-section:before {
 		width: 100%;
-		border-right: 260px solid transparent;
+		border-right: 320px solid transparent;
 	}
 	.feature-box {
 		transform: skew(-15deg);
@@ -1805,18 +1805,18 @@
 	.slider-section .slide-title span.inner-circle {
 		width: 246px;
 		height: 246px;
-		padding: 58px 0;
+		padding: 48px 0;
 	}
 	.slider-section .slide-title span.inner-circle span:nth-child(1) {
-		font-size: 42px;
+		font-size: 28px;
 	}
 
 	.slider-section .slide-title span.inner-circle span:nth-child(2) {
-		font-size: 38px;
+		font-size: 28px;
 	}
 	
 	.slider-section .slide-title span.inner-circle span:nth-child(3) {
-		font-size: 36px;
+		font-size: 28px;
 	}
 	
 	/* Services Section */ 
