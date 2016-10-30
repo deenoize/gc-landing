@@ -293,7 +293,7 @@
 	.we-perfection-slope:before
 	{
 		border: none;
-		background-color: rgba(231, 76, 68, 0.9);
+		background-color: rgba(255,190,0,0.8);
 		content: "";
 		height: 110%;
 		top: -79px;
@@ -305,7 +305,7 @@
 	}
 	.clean-code:before {
 		border: none;
-		background-color: rgba(231, 76, 68, 0.9);
+		background-color: rgba(45,36,31,0.8); ;
 		content: "";
 		height: 120%;
 		top: -25px;
@@ -494,7 +494,7 @@
 		width: 52.8%;
 		height: 130%;
 		border: none;
-		background-color: rgba(231,76,68,0.9);
+		background-color: rgba(255,190,0,0.8);
 		top: -83px;
 		transform: rotate(-15deg);
 		-webkit-transform: rotate(-15deg);
@@ -509,12 +509,12 @@
 		-webkit-transform: rotate(15deg);
 		-moz-transform: rotate(15deg);
 		-o-transform: rotate(15deg);
-		background-color: rgba(231,76,68,0.9);
+		background-color: rgba(45,36,31,0.8);
 		top: 0px;
 		right: -30px;
 	}
 	.we-launch-slope:before {
-		border-color: rgba(231, 76, 68, 0.9) transparent;
+		border-color: rgba(45,36,31,0.8) transparent;
 		border-style: solid;
 		border-width: 0px 200px 800px 0;
 		height: 100%;
@@ -1077,7 +1077,7 @@
 		overflow: hidden;
 	}
 	.research-slope {
-		background-image: url("../images/how-we-work/research-bg-tablet.jpg");
+		background-image: url("../images/gc/19_2.jpg");
 		transform: rotate(0deg);
 		-webkit-transform: rotate(0deg);
 		-moz-transform: rotate(0deg);
@@ -1089,8 +1089,8 @@
 	.research-slope:before {
 		width: 100%; 
 		height: 100%; 
-		border-top: 0px solid rgba(231,76,68,0.9); 
-		border-bottom: 340px solid rgba(231,76,68,0.9); 
+		border-top: 0px solid rgba(255,190,0,0.8);
+		border-bottom: 340px solid rgba(255,190,0,0.8);
 		border-left: 0px solid transparent; 
 		border-right: 0px solid transparent; 
 		top: auto;
@@ -1127,7 +1127,7 @@
 		line-height: 25px;
 	}
 	.we-perfection-slope {
-		background-image: url("../images/how-we-work/we-perfection-tablet.jpg");
+		background-image: url("../images/gc/5_2.jpg");
 		margin-right: 0;
 		margin-top: -90px;
 		transform: rotate(3deg);
@@ -1146,8 +1146,8 @@
 	.we-perfection-slope:before {
 		width: 100%; 
 		height: 100%; 
-		border-top: 0px solid rgba(231,76,68,0.9); 
-		border-bottom: 340px solid rgba(231,76,68,0.9); 
+		border-top: 0px solid rgba(255,190,0,0.8);
+		border-bottom: 340px solid rgba(255,190,0,0.8);
 		border-left: 0px solid transparent; 
 		border-right: 0px solid transparent; 
 		content: "";
@@ -1161,7 +1161,7 @@
 	}
 	.clean-code {
 		background-color: transparent;
-		background-image: url("../images/how-we-work/clean-code-tablet.png");
+		background-image: url("../images/gc/2.jpg");
 		height: 630px;
 		margin-top: -25px;
 		transform: rotate(-4deg);
@@ -1179,8 +1179,8 @@
 	.clean-code:before {
 		width: 100%; 
 		height: 100%; 
-		border-top: 0px solid rgba(231,76,68,0.9); 
-		border-bottom: 340px solid rgba(231,76,68,0.9); 
+		border-top: 0px solid rgba(45,36,31,0.8);
+		border-bottom: 340px solid rgba(45,36,31,0.8);
 		border-left: 0px solid transparent; 
 		border-right: 0px solid transparent; 
 		content: "";
@@ -1193,7 +1193,7 @@
 	}
 	.we-launch-slope {
 		background-color: transparent;
-		background-image: url("../images/how-we-work/we-launch-project-tablet.png");
+		background-image: url("../images/gc/9.jpg");
 		transform: rotate(4deg);
 		-webkit-transform: rotate(4deg);
 		-moz-transform: rotate(4deg);
@@ -1204,8 +1204,8 @@
 	.we-launch-slope:before {
 		width: 100%; 
 		height: 100%; 
-		border-top: 0px solid rgba(231,76,68,0.9); 
-		border-bottom: 340px solid rgba(231,76,68,0.9); 
+		border-top: 0px solid rgba(45, 36, 31,0.8);
+		border-bottom: 340px solid rgba(45, 36, 31,0.8);
 		border-left: 0px solid transparent; 
 		border-right: 0px solid transparent; 
 		content: "";
@@ -1395,7 +1395,7 @@
 		height: auto;
 	}
 	.features-section:before {
-		background-color: rgba(231,76,60,0.90);
+		background-color: rgba(255,190,0,0.8);
 		border: none;
 		width: 100%;
 	}	
@@ -1422,7 +1422,7 @@
 	/* ## Why Choose ## */
 	.why-choose:before {
 		position: absolute;
-		background-color: rgba(231,76,60,0.90);
+		background-color: rgba(255,190,0,0.8);
 		border: none;
 		width: 100%;
 	}
@@ -1476,8 +1476,8 @@
 	.research-slope:before {
 		width: 100%; 
 		height: 100%; 
-		border-top: 0px solid rgba(231,76,68,0.9); 
-		border-bottom: 440px solid rgba(231,76,68,0.9); 
+		border-top: 0px solid rgba(255,190,0,0.8);
+		border-bottom: 440px solid rgba(255,190,0,0.8);
 		border-left: 0px solid transparent; 
 		border-right: 0px solid transparent; 
 		content: "";
@@ -1535,8 +1535,8 @@
 	.we-perfection-slope:before {
 		width: 100%; 
 		height: 100%; 
-		border-top: 0px solid rgba(231,76,68,0.9); 
-		border-bottom: 440px solid rgba(231,76,68,0.9); 
+		border-top: 0px solid rgba(255,190,0,0.8);
+		border-bottom: 440px solid rgba(255,190,0,0.8);
 		border-left: 0px solid transparent; 
 		border-right: 0px solid transparent; 
 		content: "";
@@ -1564,8 +1564,8 @@
 	.clean-code:before {
 		width: 100%; 
 		height: 100%; 
-		border-top: 0px solid rgba(231,76,68,0.9); 
-		border-bottom: 350px solid rgba(231,76,68,0.9); 
+		border-top: 0px solid rgba(45,36,31,0.8);
+		border-bottom: 350px solid rgba(45,36,31,0.8);
 		border-left: 0px solid transparent; 
 		border-right: 0px solid transparent; 
 		content: "";
@@ -1591,8 +1591,8 @@
 	.we-launch-slope:before {
 		width: 100%; 
 		height: 100%; 
-		border-top: 0px solid rgba(231,76,68,0.9); 
-		border-bottom: 300px solid rgba(231,76,68,0.9); 
+		border-top: 0px solid rgba(45,36,31,0.8); );
+		border-bottom: 300px solid rgba(45,36,31,0.8); ;
 		border-left: 0px solid transparent; 
 		border-right: 0px solid transparent; 
 		content: "";

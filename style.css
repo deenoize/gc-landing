@@ -169,8 +169,9 @@ a { outline: 0 !important; }
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:focus, 
 .navbar-default .navbar-nav > .active > a:hover {
+	transition: all .5s ease-in-out;
 	background-color: transparent;
-	color: #000;
+	color: #FFBE00;
 }
 /* ## Services Section ## */
 .service-section {
@@ -250,7 +251,7 @@ a { outline: 0 !important; }
 }
 
 .service-box-inner:hover .icon-srv {
-	background-color: #e64c3d;
+	background-color: #2D241F;
 	color: #fff;
 }
 
@@ -297,8 +298,8 @@ a { outline: 0 !important; }
 /* ## Features Section ## */
 
 .features-section {
-	background-image: url("images/features/features-bg gc.jpg");
-	background-size: 100% 100%;
+	background-image: url("images/gc/tile_yellow.jpg");
+    background-repeat: repeat;
 	display: inline-block; 
 	width: 100%;
 	padding: 112px 0;
@@ -312,8 +313,8 @@ a { outline: 0 !important; }
 	height: 100%;
 	top: 0;
 	overflow: visible;
-	border-top: 1226px solid rgba(231,76,60,0.90);
-	border-bottom: 0px solid rgba(231,76,60,0.90);
+	border-top: 1226px solid #2D241F;
+	border-bottom: 0px solid #2D241F;
 	border-left: 0px solid transparent; 
 	border-right: 330px solid transparent;
 	content: "";
@@ -356,13 +357,14 @@ a { outline: 0 !important; }
 	text-align: center;
 	line-height: 100px;
 	font-size: 36px;
-	color: #e74c3c;
+	color: #2D241F;
 	transform: skew(15deg);
 	-webkit-transform: skew(15deg); 
 	-moz-transform: skew(15deg); 
 	-o-transform: skew(15deg);
 	position: relative;
 	z-index: 9;
+	transition: all .3s ease-in-out;
 }
 
 .feature-box-inner h3 {
@@ -386,7 +388,7 @@ a { outline: 0 !important; }
 }
 
 .feature-box-inner:hover .icon-feature {
-	background-color: #e74c3c;
+	background-color: #2D241F;
 	color: #fff;
 	border: 2px solid #fff;
 	line-height: 98px;
@@ -418,10 +420,11 @@ a { outline: 0 !important; }
 	border-radius: 50%;
 	transform: skew(15deg);	
 	position: absolute;
+	transition: all .2s ease-in-out;
 }
 
 .feature-box-inner:hover .line > i {
-	background-color: #e74c3c;
+	background-color: #2D241F;
 	border: 2px solid #fff;
 }
 
@@ -613,7 +616,8 @@ a { outline: 0 !important; }
 /* ## Why Choose ## */
 
 .why-choose {
-	background-image: url("images/gc/4981.jpg");
+	background-image: url("images/gc/15.jpg");
+    background-size: cover;
 	background-position: center;
 	display: inline-block; 
 	width: 100%;
@@ -628,8 +632,8 @@ a { outline: 0 !important; }
 	height: 100%;
 	top: -1px;
 	overflow: visible;
-	border-top: 0px solid rgba(231,76,60,0.90);
-	border-bottom: 871px solid rgba(231,76,60,0.90);
+	border-top: 0px solid #2D241F;
+	border-bottom: 871px solid #2D241F;
 	border-left: 220px solid transparent;
 	border-right: 0px solid transparent;
 	content: "";
@@ -711,7 +715,7 @@ a { outline: 0 !important; }
 }
 .how-we-work ul li:before{
 	position: absolute;
-	border: 1px solid #e74c3c;
+	border: 1px solid #2D241F;
 	height: 0;
 	width: 102px;
 	content: "";
@@ -741,14 +745,15 @@ a { outline: 0 !important; }
 	height: 100px;
 	display: block;
 	border-radius: 50%;
-	border: 1px solid #e74c3c;
+	border: 1px solid #2D241F;
 	font-size: 30px;
 	line-height: 100px;
-	color: #e74c3c;
+	color: #2D241F;
 	margin-bottom: 20px;
+	transition: all .5s ease-in-out;
 }
 .how-we-work ul li:hover a > i {
-	background-color: #e74c3c;
+	background-color: #2D241F;
 	color: #fff;
 }
 .how-we-work ul li:hover a {
@@ -777,8 +782,8 @@ a { outline: 0 !important; }
 	transform-origin: right center;*/
 	height: 803px;
 	position: relative;
-	background-image: url("images/gc/11820.jpg");
-	/*background-size: 100% 100%;*/
+	background-image: url("images/gc/19_2.jpg");
+    background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center bottom;
 }
@@ -786,7 +791,7 @@ a { outline: 0 !important; }
 .research-slope:before {
 	width: 52%; 
 	height: 100%; 
-	border-bottom: 810px solid rgba(231,76,68,0.9); 
+	border-bottom: 810px solid rgba(255,190,0,0.8);
 	border-left: 150px solid transparent; 
 	border-right: 50px solid transparent;
 	content: "";
@@ -891,8 +896,8 @@ a { outline: 0 !important; }
 	-ms-transform: rotate(5deg);
 	transform: rotate(5deg);
 	height: 803px;
-	background-image: url("images/gc/9404.jpg");
-	/*background-size: 100% 100%;*/
+	background-image: url("images/gc/5_2.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
 	position: relative;
@@ -901,10 +906,10 @@ a { outline: 0 !important; }
 .we-perfection-slope:before {
 	width: 58.5%; 
 	height: 100%; 
-	border-bottom: 800px solid rgba(231,76,68,0.9); 
+	border-bottom: 800px solid rgba(255,190,0,0.8);
 	border-left: 0px solid transparent; 
 	border-right: 230px solid transparent; 
-	border-top: 0px solid rgba(231,76,68,0.9);
+	border-top: 0px solid rgba(255,190,0,0.8);
 	content: "";
 	position: absolute;
 	top: -4px;
@@ -913,7 +918,7 @@ a { outline: 0 !important; }
 }
 
 .we-perfection-box-inner {
-	background-color: rgba(231,76,68,0.9);
+	background-color: rgba(255,190,0,0.8);
 	position: absolute;
 	top: -170px;
 	height: 200%;
@@ -972,8 +977,8 @@ a { outline: 0 !important; }
 	transform: rotate(-1deg);
 	margin-top: -150px;
 	height: 803px;
-	background-image: url("images/gc/28934.jpg");
-	/*background-size: 100% 100%;*/
+	background-image: url("images/gc/2.jpg");
+    background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
 }
@@ -981,10 +986,10 @@ a { outline: 0 !important; }
 .clean-code:before {
 	width: 53.7%; 
 	height: 100%; 
-	border-bottom: 800px solid rgba(231,76,68,0.9); 
-	border-top: 0px solid rgba(231,76,68,0.9); 
+	border-bottom: 800px solid rgba(45,36,31,0.8);
+	border-top: 0 solid rgba(45,36,31,0.8);
 	border-left: 165px solid transparent; 
-	border-right: 0px solid transparent; 
+	border-right: 0 solid transparent;
 	content: "";
 	position: absolute;
 	top: 0;
@@ -993,7 +998,7 @@ a { outline: 0 !important; }
 }
 
 .clean-code-box-inner {
-	background-color: rgba(231,76,68,0.9);
+	background-color: rgba(255,190,0,0.8);
 	position: absolute;
 	top: 0px;
 	height: 200%;
@@ -1024,10 +1029,10 @@ a { outline: 0 !important; }
 	-o-transform: rotate(0deg);
 	-ms-transform: rotate(0deg);
 	transform: rotate(0deg);
-	height: 800px;
+	height: 803px;
 	background-color: transparent;
-	background-image: url("images/gc/57511.jpg");
-	/*background-size: 100% 100%;*/
+	background-image: url("images/gc/9.jpg");
+    background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
 }
@@ -1035,13 +1040,13 @@ a { outline: 0 !important; }
 .we-launch-slope:before {
 	width: 55%; 
 	height: 100%;
-	border-bottom: 800px solid rgba(231,76,68,0.9); 
+	border-bottom: 800px solid RGBA(45, 36, 31,0.8);
 	border-left: 0px solid transparent; 
 	border-right: 180px solid transparent;
-	border-top: 0px solid rgba(231,76,68,0.9); 
+	border-top: 0px solid RGBA(45, 36, 31,0.8);
 	content: "";
 	position: absolute;
-	top: 42px;
+	top: 0;
 	left: 0;
 	bottom: 0;
 	-webkit-transform: rotate(4.5deg);
@@ -1052,7 +1057,7 @@ a { outline: 0 !important; }
 }
 
 .we-launch-box-inner {
-	background-color: rgba(231,76,68,0.9);
+	background-color: rgba(255,190,0,0.8);
 	position: absolute;
 	top: -170px;
 	height: 200%;
@@ -1520,7 +1525,7 @@ a { outline: 0 !important; }
 	background-color: #fff;
 	margin-top: -5px;
 	text-align: center;
-	color: #e74c3c;
+	color: #2D241F;
 	padding: 82px 0 66px 0;
 }
 .statistics-section  h1 {
@@ -1891,8 +1896,8 @@ a { outline: 0 !important; }
 
 .project-section:before {
 	width: 50%;
-	border-bottom: 0 solid #e74c3c; 
-	border-top: 600px solid #e74c3c; 
+	border-bottom: 0 solid #FFBE00;
+	border-top: 600px solid #FFBE00;
 	border-left: 0 solid transparent; 
 	border-right: 100px solid transparent; 
 	content: "";
@@ -1928,7 +1933,7 @@ a { outline: 0 !important; }
 .send-msg a {
 	padding: 25px 35px;
 	background-color: #fff;
-	color: #e74c3c;
+	color: #2D241F;
 	font-size: 30px;
 	display: inline-block;
 	margin-right: 52px;
@@ -1937,6 +1942,7 @@ a { outline: 0 !important; }
 	-moz-transform: skew(-10deg);
 	-o-transform: skew(-10deg);
 	-ms-transform: skew(-10deg);
+	transition: all .2s ease-in-out;
 }
 
 .start-project a span {
@@ -1950,8 +1956,9 @@ a { outline: 0 !important; }
 }
 .start-project a:focus,
 .start-project a:hover {
-	background-color: #000;
+	background-color: #2D241F;
 	text-decoration: none;
+	color: #fff;
 }
 
 .send-msg {
@@ -2001,7 +2008,7 @@ a { outline: 0 !important; }
 }
 .send-msg a:focus,
 .send-msg a:hover {
-	background-color: #E74C3C;
+	background-color: #FFBE00;
 	color: #fff;
 	text-decoration: none;
 }
@@ -2061,7 +2068,7 @@ a { outline: 0 !important; }
 }
 
 .back-top i {
-	color: #e74c3c;
+	color: #FFBE00;
 	font-size: 24px;
 }
 
