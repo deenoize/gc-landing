@@ -791,7 +791,7 @@ a { outline: 0 !important; }
 .research-slope:before {
 	width: 52%; 
 	height: 100%; 
-	border-bottom: 810px solid rgba(255,190,0,0.8);
+	border-bottom: 810px solid rgba(255,190,0,0.9);
 	border-left: 150px solid transparent; 
 	border-right: 50px solid transparent;
 	content: "";
@@ -906,10 +906,10 @@ a { outline: 0 !important; }
 .we-perfection-slope:before {
 	width: 58.5%; 
 	height: 100%; 
-	border-bottom: 800px solid rgba(255,190,0,0.8);
+	border-bottom: 800px solid rgba(255,190,0,0.9);
 	border-left: 0px solid transparent; 
 	border-right: 230px solid transparent; 
-	border-top: 0px solid rgba(255,190,0,0.8);
+	border-top: 0px solid rgba(255,190,0,0.9);
 	content: "";
 	position: absolute;
 	top: -4px;
@@ -918,7 +918,7 @@ a { outline: 0 !important; }
 }
 
 .we-perfection-box-inner {
-	background-color: rgba(255,190,0,0.8);
+	background-color: rgba(255,190,0,0.9);
 	position: absolute;
 	top: -170px;
 	height: 200%;
@@ -936,6 +936,7 @@ a { outline: 0 !important; }
 	left: 27px;
 }
 
+
 .car {
 	-webkit-transform-origin: left center;
 	-moz-transform-origin: left center;
@@ -952,14 +953,15 @@ a { outline: 0 !important; }
 	margin-top: -85px;
 	margin-left: -50px;
 	margin-right: -50px;
-	height: 150px;
-	background-color: white;
-	/*background-size: 100% 100%;*/
+	height: 950px;
+	background-image: url("images/gc/18.jpg");
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-position: center top;
 	position: relative;
 	z-index: 1;
 }
+
 
 .clean-code {
 	margin: 0 -50px;
@@ -986,8 +988,8 @@ a { outline: 0 !important; }
 .clean-code:before {
 	width: 53.7%; 
 	height: 100%; 
-	border-bottom: 800px solid rgba(45,36,31,0.8);
-	border-top: 0 solid rgba(45,36,31,0.8);
+	border-bottom: 800px solid rgba(45,36,31,0.9);
+	border-top: 0 solid rgba(45,36,31,0.9);
 	border-left: 165px solid transparent; 
 	border-right: 0 solid transparent;
 	content: "";
@@ -998,7 +1000,7 @@ a { outline: 0 !important; }
 }
 
 .clean-code-box-inner {
-	background-color: rgba(255,190,0,0.8);
+	background-color: rgba(255,190,0,0.9);
 	position: absolute;
 	top: 0px;
 	height: 200%;
@@ -1029,7 +1031,7 @@ a { outline: 0 !important; }
 	-o-transform: rotate(0deg);
 	-ms-transform: rotate(0deg);
 	transform: rotate(0deg);
-	height: 803px;
+	height: 740px;
 	background-color: transparent;
 	background-image: url("images/gc/9.jpg");
     background-size: cover;
@@ -1040,13 +1042,13 @@ a { outline: 0 !important; }
 .we-launch-slope:before {
 	width: 55%; 
 	height: 100%;
-	border-bottom: 800px solid RGBA(45, 36, 31,0.8);
+	border-bottom: 800px solid rgba(45, 36, 31,1);
 	border-left: 0px solid transparent; 
 	border-right: 180px solid transparent;
-	border-top: 0px solid RGBA(45, 36, 31,0.8);
+	border-top: 0px solid rgba(45, 36, 31,1);
 	content: "";
 	position: absolute;
-	top: 0;
+	top: 42px;
 	left: 0;
 	bottom: 0;
 	-webkit-transform: rotate(4.5deg);
@@ -1057,7 +1059,7 @@ a { outline: 0 !important; }
 }
 
 .we-launch-box-inner {
-	background-color: rgba(255,190,0,0.8);
+	background-color: rgba(255,190,0,0.9);
 	position: absolute;
 	top: -170px;
 	height: 200%;
